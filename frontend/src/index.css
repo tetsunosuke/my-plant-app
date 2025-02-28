@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.button {
+  background-color: red;
+}
+
+* {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+span.numbers {
+  font-family: "Rounded Mplus 1c Bold";
+}
+
+.pageTitle {
+  font-size: 16px;
+  color: #698067;
+  text-align: center;
+}
