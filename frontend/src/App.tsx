@@ -19,12 +19,6 @@ import FavoritePlantsPage from "./pages/FavoritePlantsPage";
 import PlantIWantPage from "./pages/PlantIWantPage";
 
 function App() {
-  useEffect(() => {
-    const token = localStorage.getItem("access_token");
-    if (!token) {
-      window.location.href = "/login";
-    }
-  }, []);
   return (
     <Router>
       <Routes>
