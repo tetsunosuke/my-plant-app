@@ -200,7 +200,7 @@ const MyPage = () => {
           <div className="profile-image" onClick={changeMyImgModal}>
             <img
               src={
-                exitMyImgBase64Data !== null
+                exitMyImgBase64Data !== null && !!userInfo?.myImgBase64Data
                   ? `data:image/jpeg;base64,${userInfo?.myImgBase64Data}`
                   : men
               }
